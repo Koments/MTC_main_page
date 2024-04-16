@@ -1,15 +1,14 @@
-import {Button} from "../../atoms/button/Button";
 import {Logo} from "../../atoms/logo/Logo";
-import {HeaderContainer} from "../../organisms/header-wrapper/HeaderWrapper.modules";
 import {HeaderLeft} from "./components/HeaderLeft/HeaderLeft";
 import {HeaderRight} from "./components/HeaderRight/HeaderRight";
+import {HeaderDesktopContainer} from "./Header.module";
 
-export const Header = () => {
+export const HeaderDesktop = () => {
     return (
-        <HeaderContainer>
+        <HeaderDesktopContainer>
             <HeaderLeft />
             <Logo src={"/assets/logo.svg"} alt={"MTK Logo"}/>
             <HeaderRight />
-        </HeaderContainer>
+        </HeaderDesktopContainer>
     );
 };

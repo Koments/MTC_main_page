@@ -1,14 +1,12 @@
-import {HeaderComponentContainer} from "./Header.modules";
-import {InputCheckbox} from "../../atoms/input-checkbox/InputCheckbox";
-import {Header} from "../../molecules/header/Header";
 import {HeaderSmall} from "../../molecules/header-small/HeaderSmall";
+import {HeaderContainer} from "./HeaderWrapper.modules";
+import {HeaderDesktop} from "../../molecules/header-desktop/Header";
 
-export const HeaderComponent = () => {
+export const HeaderWrapper = () => {
     return (
-        <HeaderComponentContainer>
-            <InputCheckbox />
+        <HeaderContainer>
             <HeaderSmall />
-            <Header />
-        </HeaderComponentContainer>
+            <HeaderDesktop />
+        </HeaderContainer>
     );
 };

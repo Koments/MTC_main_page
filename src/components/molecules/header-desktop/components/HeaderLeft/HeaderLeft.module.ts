@@ -9,6 +9,13 @@ export const HeaderLeftContainer = styled.div`
     @media (max-width: 1330px) {
         flex: 0.4;
     }
+
+    @media (max-width: 1024px) {
+        flex: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
 `
 
 export const SocialLinks = styled.div`
@@ -25,7 +32,6 @@ export const SocialLinks = styled.div`
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 3px;
-        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 
         &:hover,
         &:hover svg {
@@ -34,16 +40,32 @@ export const SocialLinks = styled.div`
     }
 `
 
-export const NavLinksContainer = styled.div`
+export const NavLinksContainer = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+  
     & a {
         padding-right: 35px;
+        color: #fff;
+        text-decoration: none;
 
         &:last-child {
             padding-right: 0;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: center;
+        
+        & a {
+            margin-bottom: 30px;
+            padding-right: 0;
+        }
+        
+        & a:first-of-type {
+            margin-top: 30px;
         }
     }
 `

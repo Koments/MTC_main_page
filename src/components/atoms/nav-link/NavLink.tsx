@@ -1,10 +1,7 @@
-import {NavLinksContainer} from "./NavLinks.mudule";
-import {NavLinksProps} from "../../molecules/header/Types";
+import {NavLinkProps} from "./Types";
 
-export const NavLinks = ({title}: NavLinksProps) => {
+export const NavLink = ({title}: NavLinkProps) => {
     return (
-        <NavLinksContainer>
-            <a href="/">{title}</a>
-        </NavLinksContainer>
+        <a href="/">{title}</a>
     );
 };

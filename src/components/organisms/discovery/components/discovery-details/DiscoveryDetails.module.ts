@@ -1,16 +1,16 @@
 import styled from "@emotion/styled"
 
-export const DiscoverDetailsContainer = styled.span`
+export const DiscoveryDetailsContainer = styled.span`
     flex: 0.5;
     left: 50%;
 
     & .details__block {
-        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+        
         width: clamp(420px, 40vw, 650px);
         padding-left: 70px;
     }
 
-    & .discover__subtitle {
+    & .discovery__subtitle {
         & p {
             text-decoration: none;
             text-transform: uppercase;
@@ -21,19 +21,19 @@ export const DiscoverDetailsContainer = styled.span`
         }
     }
 
-    & .discover__title {
+    & .discovery__title {
         & h2 {
             color: #222222;
             font-size: 42px;
             line-height: 52px;
             margin: 0;
-            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+            
         }
     }
 
-    & .discover__text {
+    & .discovery__text {
         & p {
-            transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+            
             font-size: 15px;
             line-height: 24px;
             letter-spacing: normal;
@@ -41,7 +41,7 @@ export const DiscoverDetailsContainer = styled.span`
         }
     }
 
-    & .discover__cta button {
+    & .discovery__btn-container button {
         box-shadow: none;
     }
 
