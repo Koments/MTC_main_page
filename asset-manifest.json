@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MTC_main_page/static/css/main.e6c13ad2.css",
+    "main.js": "/MTC_main_page/static/js/main.76b0f827.js",
+    "index.html": "/MTC_main_page/index.html",
+    "main.e6c13ad2.css.map": "/MTC_main_page/static/css/main.e6c13ad2.css.map",
+    "main.76b0f827.js.map": "/MTC_main_page/static/js/main.76b0f827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.76b0f827.js"
+  ]
+}
