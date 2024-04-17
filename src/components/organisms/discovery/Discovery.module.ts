@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 export const DiscoveryContainer = styled.div`
     display: flex;
     align-items: center;
-    max-height: 890px;
+    max-height: 940px;
 
     & .discover__image {
         flex: 0.5;
