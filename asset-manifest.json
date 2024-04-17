@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MTC_main_page/static/css/main.31d6cfe0.css",
-    "main.js": "/MTC_main_page/static/js/main.6ff5278c.js",
+    "main.js": "/MTC_main_page/static/js/main.d7829158.js",
     "index.html": "/MTC_main_page/index.html",
-    "main.6ff5278c.js.map": "/MTC_main_page/static/js/main.6ff5278c.js.map"
+    "main.d7829158.js.map": "/MTC_main_page/static/js/main.d7829158.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.6ff5278c.js"
+    "static/js/main.d7829158.js"
   ]
 }
