@@ -44,6 +44,7 @@ export const DiscoveryDetailsContainer = styled.span`
 
     & .discovery__btn-container button {
         box-shadow: none;
+        margin-top: 10px;
     }
 
     @media (max-width: 1300px) {
