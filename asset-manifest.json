@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MTC_main_page/static/css/main.e6c13ad2.css",
-    "main.js": "/MTC_main_page/static/js/main.af42accd.js",
+    "main.js": "/MTC_main_page/static/js/main.cb5aaed5.js",
     "index.html": "/MTC_main_page/index.html",
     "main.e6c13ad2.css.map": "/MTC_main_page/static/css/main.e6c13ad2.css.map",
-    "main.af42accd.js.map": "/MTC_main_page/static/js/main.af42accd.js.map"
+    "main.cb5aaed5.js.map": "/MTC_main_page/static/js/main.cb5aaed5.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.af42accd.js"
+    "static/js/main.cb5aaed5.js"
   ]
 }
