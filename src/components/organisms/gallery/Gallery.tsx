@@ -21,7 +21,7 @@ export const Gallery = () => {
                 {ImagesList.slice(0, visibleImages).map((el, index) => (
                     <img
                         key={index}
-                        src={`/assets/gallery/gallery-${el}.png`}
+                        src={`./assets/gallery/gallery-${el}.png`}
                         alt="MTC Gallery"
                         srcSet={galleryImageSizes(el.srcSet)}
                     />

@@ -1,5 +1,4 @@
 import {ImagesListProp, LinkProp} from "./Types";
-import {galleryImageSizes} from "../gallery/helps";
 
 export const footerLinks: LinkProp = [
     {
@@ -18,34 +17,34 @@ export const footerLinks: LinkProp = [
 
 export const ImagesList: ImagesListProp = [
     {
-        src: "/assets/gallery/gallery-1.png",
+        src: "./assets/gallery/gallery-1.png",
         srcSet: 1
     },
     {
-        src: "/assets/gallery/gallery-2.png",
+        src: "./assets/gallery/gallery-2.png",
         srcSet: 2
     },
     {
-        src: "/assets/gallery/gallery-3.png",
+        src: "./assets/gallery/gallery-3.png",
         srcSet: 3
     },
     {
-        src: "/assets/gallery/gallery-4.png",
+        src: "./assets/gallery/gallery-4.png",
         srcSet: 4
     },{
-        src: "/assets/gallery/gallery-1.png",
+        src: "./assets/gallery/gallery-1.png",
         srcSet: 1
     },
     {
-        src: "/assets/gallery/gallery-2.png",
+        src: "./assets/gallery/gallery-2.png",
         srcSet: 2
     },
     {
-        src: "/assets/gallery/gallery-3.png",
+        src: "./assets/gallery/gallery-3.png",
         srcSet: 3
     },
     {
-        src: "/assets/gallery/gallery-4.png",
+        src: "./assets/gallery/gallery-4.png",
         srcSet: 4
     }
 ];

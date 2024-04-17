@@ -5,16 +5,18 @@ import {Reviews} from "./components/organisms/reviews/Reviews";
 import {Gallery} from "./components/organisms/gallery/Gallery";
 import {Footer} from "./components/organisms/footer/Footer";
 import {HeaderWrapper} from "./components/organisms/header-wrapper/HeaderWrapper";
+import {BurgerWrapper} from "./components/atoms/burger-wrapper/BurgerWrapper";
 
 function App() {
     return (
         <AppContainer>
-            <HeaderWrapper />
-            <Hero />
-            <Discovery />
-            <Reviews />
-            <Gallery />
-            <Footer />
+            <BurgerWrapper/>
+            <HeaderWrapper/>
+            <Hero/>
+            <Discovery/>
+            <Reviews/>
+            <Gallery/>
+            <Footer/>
         </AppContainer>
     );
 }

@@ -23,6 +23,7 @@ export const DiscoveryDetailsContainer = styled.span`
 
     & .discovery__title {
         & h2 {
+            font-family: "Helvetica-Bold";
             color: #222222;
             font-size: 42px;
             line-height: 52px;

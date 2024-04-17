@@ -9,7 +9,7 @@ export const FooterDetail = () => {
         <FooterDetailContainer>
             <div className="footer__logo">
                 <hr/>
-                <Logo src={"/assets/logo.svg"} alt={"MTK Logo"}/>
+                <Logo src={"./assets/logo.svg"} alt={"MTK Logo"}/>
                 <hr/>
             </div>
 

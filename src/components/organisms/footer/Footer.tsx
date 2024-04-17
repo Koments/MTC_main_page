@@ -7,7 +7,7 @@ export const Footer = () => {
         <FooterContainer>
             <div className="footer__background">
                 <Logo
-                    src={"/assets/footer.png"}
+                    src={"./assets/footer.png"}
                     alt={"MTC Home Kitchens"}
                 />
             </div>

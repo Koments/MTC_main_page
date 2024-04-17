@@ -7,7 +7,7 @@ export const HeaderDesktop = () => {
     return (
         <HeaderDesktopContainer>
             <HeaderLeft />
-            <Logo src={"/assets/logo.svg"} alt={"MTK Logo"}/>
+            <Logo src={"./assets/logo.svg"} alt={"MTK Logo"}/>
             <HeaderRight />
         </HeaderDesktopContainer>
     );

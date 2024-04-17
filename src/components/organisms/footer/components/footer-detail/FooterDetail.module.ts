@@ -34,6 +34,7 @@ export const FooterDetailContainer = styled.div`
             & .footer__title {
                 & h4 {
                     color: #fff;
+                    font-family: "Helvetica-Bold";
                     font-size: 24px;
                 }
             }

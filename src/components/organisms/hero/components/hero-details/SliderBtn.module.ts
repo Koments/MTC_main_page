@@ -40,12 +40,11 @@ export const HeroDetailsContainer = styled.span`
     & .details__desktop {
         color: #fff;
         text-align: center;
-
+        font-family: "Helvetica-Bold";
         font-size: 52px;
         line-height: 58px;
         letter-spacing: -1px;
         text-shadow: 0 0 25px #00000080;
-
         margin-bottom: 30px;
         margin-top: 12px;
     }
